@@ -1,0 +1,147 @@
+*{
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:gray;
+    margin:0px;
+}
+
+h1{
+    text-align:center;
+    font-size:2.5em;
+    background-color: #6B82C9;
+    margin: 0;
+    padding:20px 0;
+
+}
+
+#follow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar ul{
+    list-style:none;
+    background-color:rgb(85, 83, 83);
+    padding:0;
+    margin:0;
+
+
+    display:flex;
+    justify-content:center;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    padding: 15px;
+    display:block;
+    text-align:center
+}
+.navbar a:hover{
+    background-color:rgb(122, 26, 26);
+    display:block;
+}
+
+#containerH{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+}
+
+#profile-picture{
+    height:400px;
+    width:320px;
+    border-radius: 50%;
+}
+
+.profile-introduction{
+    font-size: 20px;
+    text-align: center;
+}
+
+#containerAM{
+    display:flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+#containerH{
+    margin-bottom:50px;
+}
+
+.containerP-Layout{
+    display:flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom:200px;
+}
+
+#home{
+    margin-bottom:200px;
+    scroll-margin-top:175px;
+}
+
+#about-me{
+    margin-bottom:200px;
+    scroll-margin-top:275px;
+}
+
+#projects{
+    scroll-margin-top:325px;
+}
+
+#about-text{
+    max-width: 600px;
+}
+
+#project-text{
+    max-width: 600px;
+}
+
+#project-text ul {
+    background-color: rgb(93, 114, 228);
+    margin:0;
+}
+
+#project-text li {
+    font-size:1.5em;
+}
+
+#about-text h1{
+    background-color: #b38148;
+}
+
+.about-me-text{
+    font-size:1.2em;
+    background-color: #B0228C;
+}
+
+#project-text h1{
+    background-color:#674CEB
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color:rgb(109, 109, 109);
+    text-align: center;
+    padding:15px;
+}
+
+#project-image img{
+    width:1000px;
+}
+
+#project-icon{
+    background-color: #00F0FF;
+}
+
+@media screen and (max-width: 600px){
+
+}
