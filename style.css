@@ -141,6 +141,35 @@ footer{
     background-color: #00F0FF;
 }
 
+#contact{
+    text-align:center;
+    padding: 80px 0;
+}
+
+#contact ul {
+    list-style:none;
+    padding: 0;
+    margin-top:20px;
+}
+
+#contact li {
+    margin:10px 0;
+}
+
+#contact a {
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+#contact a:hover {
+    color:rgb(76, 76, 196)
+}
+
+#contact h2 {
+    font-size: 40px;
+}
+
 @media screen and (max-width: 600px){
 
 }
