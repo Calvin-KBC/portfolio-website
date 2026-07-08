@@ -108,8 +108,8 @@ h1{
 
 #about-image img{
     width:100%;
-    max-width:1000px;
-    height:auto;
+    max-width:800px;
+    height:800px;
 }
 
 #project-text{
@@ -204,6 +204,10 @@ footer{
 
     .desktop-only{
         display:none;
+    }
+
+    #about-image img{
+        height:550px;
     }
 
 }
