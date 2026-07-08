@@ -229,10 +229,15 @@ footer{
         flex-direction:column-reverse;
         text-align:left;
         gap:0px;
+        
     }
 
     .desktop-only{
         display:none;
+    }
+
+     #about-image img{
+        height:550px;
     }
    /* Will work on it later. No high priority */
 }
