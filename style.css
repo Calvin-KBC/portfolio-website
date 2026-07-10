@@ -1,3 +1,4 @@
+/*miscellaneous*/
 *{
     box-sizing:border-box;
     scroll-behavior: smooth;
@@ -21,6 +22,21 @@ h1{
 
 }
 
+h2{
+    text-align:center;
+    font-size:2.5em;
+    background-color: #6B82C9;
+    margin: 0;
+    padding:20px 0;
+
+}
+
+h3{
+    font-size:2.0em;
+}
+/*end-miscellaneous*/
+
+/*navigation*/
 #follow{
     position: fixed;
     top: 0;
@@ -52,6 +68,20 @@ h1{
     height:100%;
 }
 
+#home{
+    scroll-margin-top:175px;
+}
+
+#about-me{
+    scroll-margin-top:275px;
+}
+
+#projects{
+    scroll-margin-top:325px;
+}
+/*end-navigation*/
+
+/*home section*/
 #containerH{
     display:flex;
     flex-direction: column;
@@ -59,23 +89,46 @@ h1{
     margin-top: 170px;
 }
 
+#containerH p{
+    font-size: 20px;
+    text-align: center;
+}
+
 #profile-picture{
     height:400px;
     width:320px;
     border-radius: 50%;
 }
+/*end-home section*/
 
-.profile-introduction{
-    font-size: 20px;
-    text-align: center;
-}
-
+/*about me section*/
 #containerAM{
     display:flex;
     justify-content: center;
     gap: 80px;
 }
 
+#about-text{
+    max-width: 600px;
+}
+
+#about-text h2{
+    background-color: #b38148;
+}
+
+#about-text p{
+    font-size:1.2em;
+}
+
+
+#about-image img{
+    width:100%;
+    max-width:800px;
+    height:800px;
+}
+/*end-about me section*/
+
+/*project*/
 .containerP-Layout{
     display:flex;
     justify-content: center;
@@ -90,59 +143,25 @@ h1{
     margin-bottom:150px;
 }
 
-#home{
-    scroll-margin-top:175px;
-}
-
-#about-me{
-    scroll-margin-top:275px;
-}
-
-#projects{
-    scroll-margin-top:325px;
-}
-
-#about-text{
+.project-text{
     max-width: 600px;
 }
 
-#about-image img{
-    width:100%;
-    max-width:800px;
-    height:800px;
+.project-text h2{
+    background-color:#674CEB
 }
 
-#project-text{
-    max-width: 600px;
+.project-text p{
+    font-size:1.2em;
 }
 
-#project-text ul {
+.project-text ul {
     background-color: rgb(93, 114, 228);
     margin:0;
 }
 
-#project-text li {
+.project-text li {
     font-size:1.5em;
-}
-
-#about-text h1{
-    background-color: #b38148;
-}
-
-.about-me-text{
-    font-size:1.2em;
-}
-
-#project-text h1{
-    background-color:#674CEB
-}
-
-footer{
-    display: block;
-    clear: both;
-    background-color:rgb(109, 109, 109);
-    text-align: center;
-    padding:15px;
 }
 
 #project-image img{
@@ -151,10 +170,9 @@ footer{
     height:auto;
 }
 
-#project-icon{
-    background-color: #00F0FF;
-}
+/*project*/
 
+/*Contact*/
 #contact{
     text-align:center;
 }
@@ -181,8 +199,26 @@ footer{
 
 #contact h2 {
     font-size: 45px;
+    background:none;
 }
 
+address {
+    font-style: normal;
+}
+/*End-Contact*/
+
+/*copyright*/
+footer{
+    display: block;
+    clear: both;
+    background-color:rgb(109, 109, 109);
+    text-align: center;
+    padding:15px;
+}
+/*end-copyright*/
+
+
+/*Mobile support*/
 @media screen and (max-width: 600px){  
     .containerP-Layout{
         flex-direction:column-reverse;
